@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => {
-    let date = new Date(2021,3,4,1);
+    let date = new Date();
     date = date.getHours();
     let greeting;
     const cssStyle = {};
